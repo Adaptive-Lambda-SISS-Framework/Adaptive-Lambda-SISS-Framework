@@ -8,8 +8,8 @@ M.Hossein Momeni H.
 You can access the experiments in the `notebooks` directory.
 
 **Collaborators:**  
-- [MohammadParsa Dini](https://your-link-here.com)  
-- [Human Jafari](https://your-link-here.com)  
-- [M. Hossein Momeni H.](https://your-link-here.com)  
+- [MohammadParsa Dini](https://github.com/MohammadParsaTheFirst)  
+- [Human Jafari](https://github.com/houman-the-human)  
+- [M. Hossein Momeni H.](https://github.com/momenihamaneh1381)  
 
 You can access the experiments in the [`notebooks`](./notebooks) directory.
