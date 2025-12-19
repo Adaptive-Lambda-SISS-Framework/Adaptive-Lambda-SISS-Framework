@@ -1,0 +1,27 @@
+base:
+  project_root: .
+  data: data
+  models: models
+  logs: logs
+
+datasets:
+  mnist:
+    mnist: "{base.data}/original_mnist.pt"
+    augmented_mnist: "{base.data}/augmented_mnist_with_trousers.pt"
+    fashion_mnist: "{base.data}/fashion_mnist.pt"
+
+  cifar10:
+    cifar10: "{base.data}/original_cifar10.pt"
+
+models:
+  ddpm:
+    mnist:
+      ddpm_baseline: "{base.models}/mnist/DDPM/ddpm_baseline.pt"
+      ddpm_static_siss: "{base.models}/mnist/DDPM/ddpm_static_siss.pt"
+      ddpm_dynamic_siss: "{base.models}/mnist/DDPM/ddpm_dynamic_siss.pt"
+
+  vae:
+    mnist:
+      vae_baseline: "{base.models}/mnist/VAE/vae_baseline.pt"
+      vae_siss: "{base.models}/mnist/VAE/vae_static_siss.pt"
+      vae_dynamic: "{base.models}/mnist/VAE/vae_dynamic_siss.pt"

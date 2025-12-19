@@ -1,4 +1,4 @@
-This is the implementation of the **"Adaptive-$\lambda$ SISS for DDPM & VAE"** paper that can be viewed in this link.
+﻿This is the implementation of the **"Adaptive-$\lambda$ SISS for DDPM & VAE"** paper that can be viewed in this link.
 **Collaborators:**  
 - [MohammadParsa Dini](https://github.com/MohammadParsaTheFirst)  
 - [Human Jafari](https://github.com/houman-the-human)  
