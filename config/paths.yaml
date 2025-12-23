@@ -16,12 +16,12 @@ datasets:
 models:
   ddpm:
     mnist:
-      ddpm_baseline: "{base.models}/mnist/DDPM/ddpm_baseline.pt"
-      ddpm_static_siss: "{base.models}/mnist/DDPM/ddpm_static_siss.pt"
-      ddpm_dynamic_siss: "{base.models}/mnist/DDPM/ddpm_dynamic_siss.pt"
+      ddpm_baseline: "{base.models}/mnist/DDPM/Baseline/ddpm_baseline.pt"
+      ddpm_static_siss: "{base.models}/mnist/DDPM/Static_SISS_Unlearned/ddpm_static_siss.pt"
+      ddpm_dynamic_siss: "{base.models}/mnist/DDPM/Adaptive_SISS_Unlearned/ddpm_dynamic_siss.pt"
 
   vae:
     mnist:
-      vae_baseline: "{base.models}/mnist/VAE/vae_baseline.pt"
-      vae_siss: "{base.models}/mnist/VAE/vae_static_siss.pt"
-      vae_dynamic: "{base.models}/mnist/VAE/vae_dynamic_siss.pt"
+      vae_baseline: ["{base.models}/mnist/VAE/Baseline/vae_final.pt","{base.models}/mnist/VAE/Baseline/class_embedder.pt" ]
+      vae_siss: "{base.models}/mnist/VAE/Static_SISS_Unlearned/vae_static_siss.pt"
+      vae_dynamic: "{base.models}/mnist/VAE/Adaptive_SISS_Unlearned/vae_dynamic_siss.pt"
